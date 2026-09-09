@@ -1,0 +1,13 @@
+{
+  "globalConcurrencyLimit": 4,
+  "maxActiveAsyncRunsPerSession": 3,
+  "maxSubagentSpawnsPerSession": 32,
+  "maxSubagentSpawnsPerRun": 24,
+  "artifactDir": "session",
+  "fleetView": true,
+  "completionBatch": {
+    "enabled": true,
+    "debounceMs": 150,
+    "maxWaitMs": 1000
+  }
+}
